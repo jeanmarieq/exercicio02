@@ -7,6 +7,8 @@ import { UsuariosService } from '../service/usuarios.service';
   styleUrls: ['./usuarios.component.css']
 })
 export class UsuariosComponent implements OnInit {
+  
+ 
 
  usuarios: any = [];
 
@@ -19,5 +21,5 @@ export class UsuariosComponent implements OnInit {
   ngOnInit(): void {
    
   }
-
+  
 }
