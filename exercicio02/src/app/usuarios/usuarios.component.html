@@ -1,0 +1,18 @@
+<h1>Lista de usuário</h1>
+<div>
+    <ul>
+        <li *ngFor="let usuario of usuarios">
+            <ul>
+                <li>Id: {{ usuario.id }}</li>
+                <li>Nome: {{ usuario.name }}</li>
+                <li>Nome de usuario: {{ usuario.username }}</li>
+                <li>Email: {{ usuario.email | lowercase }}</li>
+                <li>Endereço: {{ usuario.address.street }}</li>
+                <li>Endereço: {{ usuario.address.city }}</li>
+             <hr>
+            </ul>
+        </li> 
+    </ul>
+    
+           
+</div>
