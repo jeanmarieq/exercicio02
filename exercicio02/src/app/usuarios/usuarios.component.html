@@ -5,12 +5,12 @@
         <hr>
         <li *ngFor="let usuario of usuarios">
             <ul>
-                <li>Id: {{ usuario.id }}</li>
-                <li>Nome: {{ usuario.name }}</li>
-                <li>Nome de usuario: {{ usuario.username }}</li>
-                <li>Email: {{ usuario.email | lowercase }}</li>
-                <li>Endereço: {{ usuario.address.street }}</li>
-                <li>Cidade: {{ usuario.address.city }}</li>
+                <li><strong>Id:</strong> {{ usuario.id }}</li>
+                <li><strong>Nome:</strong> {{ usuario.name }}</li>
+                <li><strong>Nome de usuario:</strong> {{ usuario.username }}</li>
+                <li><strong>Email:</strong> {{ usuario.email | lowercase }}</li>
+                <li><strong>Endereço:</strong> {{ usuario.address.street }}</li>
+                <li><strong>Cidade:</strong> {{ usuario.address.city }}</li>
              
             </ul>
          <hr>   
